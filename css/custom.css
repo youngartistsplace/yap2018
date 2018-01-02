@@ -1,0 +1,59 @@
+.navbar {
+	font-family: Bree Serif,Georgia,serif;
+	font-size: 20px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.home .navbar-default .navbar-brand {
+    color: #35b729;
+    font-size: 25px;
+}
+
+.home .navbar-default a.navbar-brand {
+    text-shadow: none;
+}
+
+.home .navbar-default .navbar-nav > li > a {
+	color: #74bf82;
+    text-shadow: none;
+    font-weight: 400;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    transition: all 0.2s ease-out;
+}
+
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Bree Serif,Georgia,serif;
+}
+
+h4 {
+    color: #000;
+}
+
+#map {
+    height: 400px;
+}
+
+.post .post__intro {
+    font-size: 18px;
+    color: #333;
+}
+
+.footer__copyright {
+	color: #333;
+	background: #ffbd4a;
+	padding: 30px 0;
+}
